@@ -1,0 +1,25 @@
+{
+  "name": "konnosena/php-dynamodb-builder",
+  "authors": [
+    {
+      "name": "konnosena",
+      "email": "konnosena@gmail.com"
+    }
+  ],
+  "require": {
+    "aws/aws-sdk-php": "3.*",
+    "ramsey/uuid": "*"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "*",
+    "phpunit/phpunit": "*",
+    "phake/phake": "2.*",
+    "phpseclib/phpseclib": "*",
+    "mockery/mockery": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "konnosena\\DynamoDB\\": "src"
+    }
+  }
+}
